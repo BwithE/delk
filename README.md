@@ -12,5 +12,5 @@ cd delk
 
 chmod +x runme.sh
 
-./runme.sh
+sudo ./runme.sh
 ```
