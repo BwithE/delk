@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# increase the maximum number of memory-mapped areas a process can have
+sysctl -w vm.max_map_count=262144
+
 # build the image
 docker build -t elk-stack .
 
